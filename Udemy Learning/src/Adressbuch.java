@@ -9,7 +9,7 @@ public class Adressbuch
     {
         Adresse peterAdresse = new Adresse("Peter", "Fritzstraße 3", "Berlin");
         Adresse canAdresse = new Adresse("Can", "Ortlerstraße 4", "Augsburg");
-        Adresse canNeuAdresse = new Adresse("CanArslan", "Fruelingstraße 24", "Friedberg");
+        Adresse canNeuAdresse = new Adresse("Messi", "Fruelingstraße 24", "Friedberg");
 
         ArrayList<Adresse> adressenListe = new ArrayList<Adresse>(); //dynamisch -> es kann immer wieder ein neues Element eingefügt werden, Größe variiert
         Adresse[] adressenArray = {peterAdresse, canAdresse, canNeuAdresse}; //statisch -> ein Array hat immer eine bestimmte größe
