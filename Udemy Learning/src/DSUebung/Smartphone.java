@@ -27,7 +27,7 @@ public class Smartphone {
 	public boolean findKontakt(String name) {
 		for (Kontakt kontakt : meinekontakte) {
 			if (name.equals(kontakt.getName())) {
-				System.out.println("Kontakt gefunden" + kontakt.getName() + " " + kontakt.getTelefonummer());
+				System.out.println("Kontakt gefunden " + kontakt.getName() + " " + kontakt.getTelefonummer());
 				return true;
 			}
 		}
@@ -37,7 +37,7 @@ public class Smartphone {
 
 	public void ausgabe() {
 		for (Kontakt kontakt : meinekontakte) {
-			System.out.println("Der Kontakt heißt" + kontakt.getName() + " und seine Telefonummer lautet: "
+			System.out.println("Der Kontakt heißt " + kontakt.getName() + " und seine Telefonummer lautet: "
 					+ kontakt.getTelefonummer());
 		}
 	}
