@@ -4,17 +4,17 @@ public class Adresse
     // Eigenschaften
 
     private String name;
-    private String straﬂe;
+    private String stra√üe;
     private String stadt;
 
 
     // Konstruktor
 
-    public Adresse(String name, String straﬂe, String stadt)
+    public Adresse(String name, String stra√üe, String stadt)
     {
         super();    //ruft Konstruktor der Klasse Object auf!! 
         this.setName(name);
-        this.setStraﬂe(straﬂe);
+        this.setStra√üe(stra√üe);
         this.setStadt(stadt);
     }
 
@@ -33,15 +33,15 @@ public class Adresse
     }
 
 
-    public String getStraﬂe()
+    public String getStra√üe()
     {
-        return straﬂe;
+        return stra√üe;
     }
 
 
-    public void setStraﬂe(String straﬂe)
+    public void setStra√üe(String stra√üe)
     {
-        this.straﬂe = straﬂe;
+        this.stra√üe= stra√üe;
     }
 
 
