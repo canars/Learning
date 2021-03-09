@@ -32,7 +32,7 @@ public class Main
         liste1.add("Gustaf");
         
 
-        //TreeSet -> Sets sortieren nach der Natürlich Ordnung -> A-Z 1-9 etc... 
+        //TreeSet -> Sets sortieren nach der Natï¿½rlich Ordnung -> A-Z 1-9 etc... 
         set1.add("Can");
         set1.add("Peter");
         set1.add("Can");
@@ -46,7 +46,7 @@ public class Main
         set2.add("Bernd");
         set2.add("Gustaf");
         
-        //LinkedHashSet -> jedes Objekt mit dem anderen verbunden. Ausgabe immer in derselben Reihenfolge. Sie kommen raus wie sie in eingefügt wurden.
+        //LinkedHashSet -> jedes Objekt mit dem anderen verbunden. Ausgabe immer in derselben Reihenfolge. Sie kommen raus wie sie in eingefï¿½gt wurden.
         set3.add("Can");
         set3.add("Peter");
         set3.add("Can");
@@ -69,6 +69,7 @@ public class Main
         for (String string : collection)
         {
               System.out.println(string);
+        
         }
     }
 }
